@@ -1,0 +1,15 @@
+.nav {
+background-color: rgb(172, 213, 248);
+display:flex;
+flex-direction:column-reverse;
+justify-content:space-around;
+align-items:stretch
+order: 1 ;
+flex-wrap: wrap;
+align-items:stretch;
+}
+
+.nav-list {
+    background-color: rgb(218, 203, 75);
+    align-self: flex-end;
+}

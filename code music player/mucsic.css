@@ -1,0 +1,90 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: -0.022em;
+}
+.Music {
+    width: 680px;
+    margin: auto;
+    text-align: center;
+    /* position:fixed; */
+}
+.hearder-content{
+    color: rgb(255, 52, 52);
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: 14px;
+    letter-spacing: -0.022em
+}
+.Name-hearder{
+    font-size: 28px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    letter-spacing: -0.022em
+}
+.img{
+    background-color: url("/code music player/img/sontung.jpg");
+    width: 360px;
+    border-radius: 50%;
+}
+.buttonList{
+    width: 450px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px; 
+}
+.fas{
+    font-size: 26px;
+    opacity: 0.6;
+    height: 28px;
+   
+}
+.farletf{
+    transform: rotate(180deg);
+}
+.fa-play-circle{
+    color: rgb(255, 16, 16);
+    font-size: 50px;
+    line-height: 28px;
+    opacity: 0.8;
+}
+.fa-redo-alt{
+    line-height: 28px;
+}
+.lisMuct{
+    margin-top: 30px;
+    display: flex;
+    justify-content:flex-start;
+    width: 360px;
+    margin: auto;
+    margin-top: 36px;
+}
+.imglistms{
+    width: 60px;
+    border-radius: 50%;
+}
+.contentlist{
+    margin-left: 50px;
+    position: relative;
+    padding: 0px;
+}
+.tenbaihat{
+    margin: 0px;
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: -0.022em;
+}
+.tencasi{
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    left: 0;
+}
+.listbaihat{
+    display: flex;
+    flex-direction: column;
+    width: 680px;
+    margin: auto;
+    /* margin-top: 514px; */
+}

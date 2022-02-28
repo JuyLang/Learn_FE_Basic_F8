@@ -1,0 +1,58 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+   }
+
+body{
+    background-color:rgba(241, 241, 241, 0.829);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.div1{
+    margin-top: 45px;
+    width: 550px;
+    height:auto ;
+    background-color: white;
+   position: relative;
+   left: 34%;
+   border: 1px solid rgba(240, 239, 239, 0.884);
+border-radius: 3px;
+}
+.div1 h1 {
+    text-align: center;
+    font-size: 27px;
+    font-weight:bold;
+    margin: 20px 0 12px;
+   letter-spacing:1px;
+}
+.div1 p{
+    text-align: center;
+    font-style: oblique;
+    letter-spacing:1px;
+    margin-bottom: 100px;
+    font-size: 19px;
+}
+.div1 form{
+    margin-left: 36px;
+}
+.div1 form label{
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 0 40px;
+}
+.div1 form input{
+    margin-top: 1px;
+    margin-bottom: 40px;
+    border :1px solid #b3b3b3;
+    width: 450px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 3px;
+}
+#Checkbok{
+    position: relative;
+    right: 401px;
+}

@@ -1,0 +1,183 @@
+.body{
+    font-family:  sans-serif;
+    height: 470px;
+    width: 1200px;
+    background-color: #170f23;
+    /* margin: auto; */
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px ;
+    padding-top: 30px;
+    margin: auto;
+}
+.body_now{
+    width: 300px;
+    height: 410px;
+    display: flex;
+    flex-direction: column;
+}
+.body_list{
+    width: 800px;
+    height: 410px;
+}
+.body_now_img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.body_now_img-content{
+    text-align: center;
+    width: 240px;
+    height: 200px;
+    margin-top: 3px;
+    margin:auto;
+    color: rgb(155, 155, 155);
+}
+.body_now_img-content-baihat{
+    font-size: 23px;
+    color:white;
+    margin: 9px 0px 0px 0px;
+}
+.body_now_img-content-baihat_tacgia_and_time{
+    display: flex;
+    justify-content: space-between;
+    /* height: 36px; */
+    margin-top: 7px;
+}
+.body_now_img-content-baihat_tacgia_and_time p{
+    font-size: 14px;
+    margin: 0px;
+    /* line-height: 36px; */
+}
+.body_now_img-content-baihat_tacgia_and_time-Viewlove{
+    font-size: 14px;
+    margin-top: 8px;
+    margin:0px ;
+}
+.body_now_img-content-baihat_play{
+    display: flex;
+    justify-content: space-between;
+    height: 36px;
+    width: 160px;
+    margin: auto;
+    background-color: rgb(172, 0, 160);
+    border-radius: 15px;
+    margin-top: 15px;
+    color: white;
+}
+.body_now_img-content-baihat_play i{
+    font-size: 16px;
+    margin-left: 20px;
+    line-height: 36px;
+    height: 16px;
+}
+.body_now_img-content-baihat_play p{
+    line-height: 36px;
+    font-size: 15px;
+    margin: 0px;
+    margin-right: 16px;
+}
+.body_now_img-content-baihat_iconLoveAndOther{
+    height: 36px;
+    width: 60px;
+    margin: auto;
+    margin-top: 20px ;
+    display: flex;
+    justify-content: space-between;
+}
+.body_now_img-content-baihat_iconLoveAndOther i{
+    font-size: 18px;
+}
+
+.body_list_now-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.body_list_now-header p{
+    font-size: 16px;
+    color: rgb(155, 155, 155);
+    font-weight: 550;
+}
+.body_list_now-header-baihat{
+    margin-left: 36px;
+}
+.body_list_now{
+    height: 46px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 13px;
+    background-color: rgba(105, 105, 105, 0.76);
+    border-radius: 12px;
+}
+.body_list_item_img-anh{
+    height: 45px;
+    width: 45px;
+    border-radius: 6px;
+    margin-right: 16px;
+}
+.body_list_item_img{
+    width: 330px;
+    display: flex;
+    justify-content: flex-start;
+}
+/* .body_list_item_img i{
+    font-size: 18px;
+    line-height: 38px;
+    color: white;
+    margin-right: 16px;
+} */
+.fa-music{
+    font-size: 18px;
+    line-height: 38px;
+    color: white;
+    margin-right: 16px;
+}
+.body_list_item_img_name_baihat{
+    margin: 0px;
+    font-weight: 500;
+}
+.body_list_item_img_name_tacgia{
+    margin-top: 2px;
+    margin: 0;
+    font-size: 14px;
+    color: rgb(155, 155, 155);
+}
+.body_list_item_time_now{
+    display: flex;
+    justify-content: space-around;
+    line-height: 36px;
+    color: rgb(155, 155, 155);
+}
+.body_list_item_img_name_baihat{
+    color: white;
+}
+.body_list_now-care{
+    color: rgb(231, 231, 231);
+    font-size: 23px;
+    margin:0px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.body_list_item{
+    padding: 13px ;
+}
+.body_list_item_time{
+    width: 360px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.body_list_item_time_namenow{
+    line-height: 36px;
+    font-size: 15px;
+    color: rgb(155, 155, 155);
+}
+.body_list_item{
+    display: flex;
+    justify-content: space-between;
+}
+.fa-music{
+    font-size: 21px;
+}
